@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val tv_word = findViewById<TextView>(R.id.tv_word)
         val check = findViewById<Button>(R.id.btn_check)
         val show = findViewById<Button>(R.id.btn_show)
-        val wrong_word: String = "putcomer"
+        val wrong_word: String = "putcomer "
 
         tv_word.text = wrong_word
 
